@@ -2,3 +2,22 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.slide:nth-of-type(1) {
+  background-color: black;
+  color: white;
+}
+
+.slide:nth-of-type(2) {
+  background-color: grey;
+  color: white;
+}
